@@ -1,0 +1,67 @@
+#PlayerLabel{
+    -fx-font-weight: bold;
+    -fx-font-size: 18 px;
+}
+#NegLabel{
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+    -fx-font-size: 12 px;
+}
+#PosLabel{
+    -fx-font-weight: bold;
+    -fx-text-fill: green;
+    -fx-font-size: 12 px;
+}
+#Player_Prediction{
+    -fx-font-weight: bold;
+    -fx-text-fill: blue;
+}
+#PlayerHint{
+    -fx-font-weight: bold;
+    -fx-text-fill: blue;
+}
+#ComputerLabel{
+    -fx-font-weight: bold;
+    -fx-font-size: 18 px;
+}
+#Computer_Prediction{
+    -fx-font-weight: bold;
+    -fx-text-fill: maroon;
+}
+#Computer_Hint{
+    -fx-font-weight: bold;
+    -fx-text-fill: maroon;
+}
+#computer_prediction{
+    -fx-background-color: white;
+    -fx-text-fill: navy;
+    -fx-font-weight: bold;
+}
+#computer_hint_player{
+    -fx-background-color: white;
+    -fx-text-fill: navy;
+    -fx-font-weight: bold;
+}
+#StatusLabel{
+    -fx-background-color: red;
+    -fx-text-fill : red;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+#TurnLabel{
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+}
+#WinnerLabel{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Linux Biolinum G";
+    -fx-text-fill: navy;
+}
+#ToBeWinnerLabel{
+    -fx-text-fill: red;
+    -fx-font-family: Rubik;
+    -fx-font-weight: bold;
+    fx-font-size:14px;
+}
+
