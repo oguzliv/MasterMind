@@ -1,0 +1,9 @@
+<h4>Status Area</h4>
+<div>
+  <span style="margin-right: 10px">Turn: </span><input disabled = "true" [value] = "turn" class="turn" type="text" width="15"/><br>
+  <br>
+  <textarea rows="50" cols="10" class="Status" placeholder="To start game,press start button." disabled="true"> {{statusMessage}}</textarea>
+  <br>
+  <button [disabled] = "gameStarted" (click) = "startGame()" >Start Game</button>
+
+</div>

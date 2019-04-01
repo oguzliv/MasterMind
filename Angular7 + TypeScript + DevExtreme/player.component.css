@@ -1,0 +1,6 @@
+.hint {
+    width: 20px;
+    height: 10px;
+    -webkit-text-fill-color: red;
+    border-color: blue;
+}

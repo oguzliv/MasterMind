@@ -1,0 +1,12 @@
+.turn {
+    width: 15px;
+}
+.Status {
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    resize: none;
+    height: 100px;
+    width: 150px;
+    text-align: left;
+    background-color: yellow;
+}

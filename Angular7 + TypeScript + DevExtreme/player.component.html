@@ -1,0 +1,16 @@
+<h2>PLAYER</h2>
+<div>
+  <h3>Player Prediction :</h3><br>
+  <input [disabled] = "!userTurn || !gameStarted" #playerPrediction type="text" placeholder="predict..." /> 
+  <button [disabled] = "!userTurn || !gameStarted" (click) = "getPlayerPrediction(playerPrediction.value)" style="margin-left: 10px">Predict</button>
+</div>
+<div>
+  <h3>Player Hint to Computer : </h3><br>
+  <span><label>POS : </label></span> <input [disabled] = "userTurn || !gameStarted" #posVal class="hint" type="text" width="20" height="10" />
+  <span><label>NEG : </label></span> <input [disabled] = "userTurn || !gameStarted" #negVal class="hint" type="text" width="20" height="10" />
+  <span><button [disabled] = "userTurn || !gameStarted" (click) = "userHintToComputer(posVal.value,negVal.value)" style="margin-left: 10px">Hint</button></span>
+</div>
+<br/>
+<dx-data-grid [width]="300" [dataSource]="dataSource">
+
+</dx-data-grid>
